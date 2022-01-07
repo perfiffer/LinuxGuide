@@ -1,0 +1,53 @@
+{
+ "title": "如风",
+ "author": "perfiffer",
+ "description": "如风一样，时而温和，时而狂暴，不可捉摸",
+ "style": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+ },
+ "plugins": [
+    "-search",
+    "-lunr",
+    "back-to-top-button",
+    "expandable-chapters",
+    "copy-code-button",
+    "search-pro",
+    "github",
+    "splitter",
+    "-sharing",
+    "sharing-plus",
+    "tbfed-pagefooter",
+    "auto-scroll-table",
+    "popup"
+ ],
+ "pluginsConfig": {
+    "insert-logo": {
+      "url": "images/logo.png",
+      "style": "background: none; max-height: 30px; min-height: 30px;"
+    },
+    "github": {
+      "url": "https://github.com/perfiffer"
+    },
+    "page-toc-button": {
+      "maxTocDepth": 2,
+      "minTocSize": 2
+    },
+    "sharing": {
+      "Linkedin": true,
+      "weibo": true
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy linux-learning.cn 2019"
+    },
+    "change_girls": {
+      "time": 10,
+      "urls": [
+        "images/girl/girl1.png", "images/girl/girl2.png"
+      ]
+    }
+ }
+}
